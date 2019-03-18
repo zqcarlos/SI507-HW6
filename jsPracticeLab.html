@@ -19,11 +19,11 @@
 		document.querySelector('#time').innerHTML = new Date();
 		var body = document.querySelector('body')
 		body.style.background = "#CCEE00";
-		// Color option codes: https://www.w3schools.com/colors/colors_picker.asp
+		// One place to find color option codes: https://www.w3schools.com/colors/colors_picker.asp
 		body.style.margin = "10%";		
 	}
 	//When someone uses the keyboard shortcut to copy the words "University of Michigan" then add the words "Go Blue" to the final div.  Each occurence should be on a separate line. 
-	//Outside the other function
+	//Note that this code must be outside the other function above
 	function copyFunction(){
 		document.querySelector('#cheer').innerHTML += "Go blue!<br>"
 	}
@@ -70,7 +70,7 @@ p{
 
 	</div>
 
-	<button id="wow-button" onClick=handleClick>Wow</button>
+	<button onclick=handleClick() id="wow-button">Wow</button>
 
 </body>
 </html>

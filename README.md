@@ -81,7 +81,18 @@ Below are a bunch of questions and indications of things to do. For each indicat
 
 * Edit the code so that, if you highlight `McGill University` and copy it, you see the text `O Canada` near the bottom of the page. Briefly explain why you made the edits that you did -- how did you know/figure out what to do?
 
-* TODO something about 
+* In the original code, when you click the button that says `Wow`, you see a text box! Wow. Explain briefly in your own words why the following code causes that to happen:
+
+```js
+function handleClick(){
+		alert("hello");
+}
+```
+and
+```<button onclick=handleClick() id="wow-button">Wow</button>```
+
+
+* Knowing that from the previous question, add code/markup to the `jsPracticeLab.html` file so that there is a button with the text `Spring Solstice 2019` on it, and when that button is clicked, a text box containing the text `March 20, 2019` appears. (There's no function -- that I am aware of -- to automatically get this info, you've got to type it yourself.)
 
 ### The next few questions address the `jquerylib_submit_example.html` file.
 
