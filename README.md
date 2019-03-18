@@ -47,12 +47,13 @@ Below are a bunch of questions and indications of things to do. For each indicat
 	* Slightly more than half the 1000 points will come from answering the questions. The rest will come from your edits to the code.
 
 ### Names of people you have worked with on this assignment
-* List 
-* Everyone's
-* Names and uniqnames who have worked on this assignment with you, **including your own name**
+* List everyone's names and uniqnames who have worked on this assignment with you, **including your own name, but make sure YOUR name is first and bold**
 * Like this: 
-* Jackie Cohen (jczetta)
+* **Jackie Cohen (jczetta)**
 * Yea-Ree Chang (cyearee)
+* Ruchi Ookalkar (ruchido)
+* Innocent Obi (innoobi)
+* Zhen Wang (alejwang)
 * etc.
 
 ## Questions & code instructions
@@ -94,9 +95,11 @@ and
 
 * Knowing that from the previous question, add code/markup to the `jsPracticeLab.html` file so that there is a button with the text `Spring Solstice 2019` on it, and when that button is clicked, a text box containing the text `March 20, 2019` appears. (There's no function -- that I am aware of -- to automatically get this info, you've got to type it yourself.)
 
+
+
 ### The next few questions address the `jquerylib_submit_example.html` file.
 
-* Check out the file `jquerylib_submit_example.html`. This is a 
+* Check out the file `jquerylib_submit_example.html`. This is an example of code that uses a package called `jQuery` (and this will need you to have an internet connection to run it properly, although the other file does not). Check out resources above for more on jQuery!
 
 * Why is the error red
 
