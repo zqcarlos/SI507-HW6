@@ -2,15 +2,17 @@
 
 ## Some useful resources
 * Some [JavaScript tutorials](https://www.htmldog.com/guides/javascript/)
-* TBA readings from the other day
+* The complicated [resources in the You Don't Know JS](https://github.com/getify/You-Dont-Know-JS) series, including [your reading last week](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch2.md)
 * [A resource for CSS/style/colors](https://htmlcolorcodes.com/)  
 * [An excerpt from a specific workshop site](https://witny-summer-guild-2018.github.io/day_4_exercise_2.html) (for a different audience than yourselves) which addresses some common questions about jQuery
-* TBA
+* [The simple JSFiddle example from class](https://jsfiddle.net/2of65j8q/)
+* A [W3Schools resource on JavaScript output](https://www.w3schools.com/js/js_output.asp)
+* Google, Piazza, your classmates, office hours, lab time!
 
 ## Included files
 * This `README.md`, which you should edit with answers to the questions
-* `jsPracticeLab.html`
-* `jquerylib_submit_example.html`
+* `jsPracticeLab.html`, which you'll need to edit and try out
+* `jquerylib_submit_example.html`, which you'll need to edit and try out
 
 ## Your goals for this lab
 
