@@ -67,6 +67,14 @@ Below are a bunch of questions and indications of things to do. For each indicat
 
 ### The first questions address the `jsPracticeLab.html` file.
 
+* This is just an example question.
+
+This is what an example answer should look like. If you want to include some code, which you probably don't have to do, you can, like this:
+
+```js
+Some JavaScript code
+```
+
 * What does a code comment look like in JavaScript? What character/s do you have to put before a comment?
 
 * Explain what needs to happen to get a JavaScript program to "run", given the JavaScript you've seen in this assignment.
