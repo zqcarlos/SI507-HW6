@@ -29,15 +29,22 @@ Below are a bunch of questions and indications of things to do. For each indicat
 
 * Fork (and clone) this repository
 * Add our instructional team as a collaborator to your fork (see instructions for adding collaborators on Canvas)
-* Edit this `README.md` file with answers to the questions, briefly, using Markdown formatting so that the questions appear in bulletpoints and the answers appear clearly below each respective question, *not* as bulletpoints.
-* Make the changes that are indicated below to each of the `.html` files provided.
+* Edit this `README.md` file with answers to the questions/prompts, briefly, using Markdown formatting so that the questions appear in bulletpoints and the answers appear clearly below each respective question, *not* as bulletpoints.
+* Add all names of those who worked on this (as indicated below)
+* Make the changes that are indicated below to each of the `.html` files with JavaScript programs provided. (You'll probably do this concurrently with answering questions)
 * Commit (as you go) and push your changes to all three files to your GitHub forked repository.
 * Submit a link to your repository on Canvas. (This HW doesn't have an autograder -- it will be graded by hand/by humans this time.)
 
 ### Important notes
-* You are *more than* welcome to work together on this, but **you must <u>each</u> submit a lab to be graded on it**, so if you do work together, you should do the following:
+* You are *more than* welcome to work together on this, but **you must <u>each</u> submit a repo to be graded on it**, so if you do work together, you should do the following:
 	* Make sure each one of you understands all the work -- YOU are responsible for using and knowing this information
 	* Write each person's name & uniqname who worked on the assignment together on your submitted `README.md` file (you'll see a space for this below)
+
+* In answering questions, please make sure the formatting is clear to read and that you have updated the names of everyone who worked with you, with your name first (see below).
+
+* In answering questions, assume all of the answers include a *explain briefly* -- you do NOT have to, and should not, write extended paragraphs. Be as concise as you can and explain in your own words. 
+
+* It is not acceptable to copy and paste answers from the internet and submit them as your own. If you cite things, make sure you provide a citation, including to links. If you get information from a resource and rephrase it so you're basically explaining an idea, that's just fine for an explanatory purpose in this assignment, but you *must* cite any quotes or examples that aren't yours. 
 
 * **For grading:** we are grading on...
 	* Following the instructions
