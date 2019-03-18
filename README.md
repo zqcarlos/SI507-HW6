@@ -104,7 +104,7 @@ function handleClick(){
 	alert("hello");
 }
 ```
-and
+**and**
 
 ```js
 <button onclick=handleClick() id="wow-button">Wow</button>
@@ -128,7 +128,7 @@ and
 
 * **What do you think the `10000` refers to in the code `.fadeOut(10000)`?**
 
-* **What do you think is going on with the following code? Note that the most important thing to do for answering this question is to be thoughtful and clear, not to be absolutely correct:**
+* **What do you think is going on with the following code at the beginning of the program? Note that the most important thing to do for answering this question is to be thoughtful and clear, not to be absolutely correct:**
 
 ```js
 $(document).ready(function(){
