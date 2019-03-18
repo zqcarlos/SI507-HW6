@@ -15,7 +15,7 @@
 ## Your goals for this lab
 
 ### Broadly
-The aim for this lab is to understand code in a new-to-you (or not) language and its own libraries/packages -- JavaScript, in this case.
+The aim for this lab is to practice adapting to and understanding code in a new-to-you (or not) language and its own libraries/packages -- JavaScript, in this case.
 
 The programming skills you have built up till now are useful for *Python programming*, but, more than that, they extend to fundamentals of many kinds of programming.
 
@@ -34,8 +34,8 @@ Below are a bunch of questions and indications of things to do. For each indicat
 * Commit (as you go) and push your changes to all three files to your GitHub forked repository.
 * Submit a link to your repository on Canvas. (This HW doesn't have an autograder -- it will be graded by hand/by humans this time.)
 
-#### Important notes
-* You are *more than* welcome to work together on this, but **you must <u>each</u>u> submit a lab to be graded on it**, so if you do work together, you should do the following:
+### Important notes
+* You are *more than* welcome to work together on this, but **you must <u>each</u> submit a lab to be graded on it**, so if you do work together, you should do the following:
 	* Make sure each one of you understands all the work -- YOU are responsible for using and knowing this information
 	* Write each person's name & uniqname who worked on the assignment together on your submitted `README.md` file (you'll see a space for this below)
 
@@ -46,6 +46,14 @@ Below are a bunch of questions and indications of things to do. For each indicat
 	* Correct answers to the questions
 	* Slightly more than half the 1000 points will come from answering the questions. The rest will come from your edits to the code.
 
+### Names of people you have worked with on this assignment
+* List 
+* Everyone's
+* Names and uniqnames who have worked on this assignment with you, **including your own name**
+* Like this: 
+* Jackie Cohen (jczetta)
+* Yea-Ree Chang (cyearee)
+* etc.
 
 ## Questions & code instructions
 
@@ -55,22 +63,34 @@ Below are a bunch of questions and indications of things to do. For each indicat
 
 * Explain what needs to happen to get a JavaScript program to "run", given the JavaScript you've seen in this assignment.
 
-* TBA
+* What functions in JavaScript seem to be similar in function to the `print` function in Python? (There are two.) Why might you use one and not the other? Explain briefly.
 
-* How can you put your own name at the top where it currently says "A name"?
+* What code would have to comment out to get rid of the pop-up box when you load the page? (Related to the last question.) Do that in the code file, and then, add code so that a text box will appear that contains the current date and time! *HINT:* Look through the rest of the code first...
 
-* What does the word "document" represent in this code?
+* How can you put your own name at the top where it currently says "A name"? Explain very briefly how to do so, and replace `A name` in the web page with your own name.
+
+* What does the word `document` represent in this code? Explain briefly.
 
 * What is happening in line 12 ( 
 		`document.querySelector('#items').innerHTML = document.getElementsByTagName('li').length`
-)? Explain, briefly (<= 2 sentences)
+)? Explain, briefly (<= 2 sentences).
 
-* What color would the background of this page be if there were no JavaScript in this page?
+* What color would the background of this page be <u>if there were no JavaScript in this page</u>?
 
 * Why are there a couple of gray boxes on the screen with a different colored border? How could you edit this code to make them a different color? Explain briefly. Then edit the code to make those boxes some shade of blue, of your choosing.
 
 * Edit the code so that, if you highlight `McGill University` and copy it, you see the text `O Canada` near the bottom of the page. Briefly explain why you made the edits that you did -- how did you know/figure out what to do?
 
+* TODO something about 
+
 ### The next few questions address the `jquerylib_submit_example.html` file.
 
 * Check out the file `jquerylib_submit_example.html`. This is a 
+
+* Why is the error red
+
+* What is this line `var regex = /^[a-zA-Z]+$/;` helping with?
+
+* What's different about the syntax of the if statements?
+
+* Maybe something about relying on jQuery 
