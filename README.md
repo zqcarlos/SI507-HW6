@@ -86,7 +86,7 @@ Below are a bunch of questions and indications of things to do. For each indicat
 
 ```js
 function handleClick(){
-		alert("hello");
+	alert("hello");
 }
 ```
 and
