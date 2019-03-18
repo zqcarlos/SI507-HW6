@@ -90,10 +90,11 @@ function handleClick(){
 }
 ```
 and
+
 ```<button onclick=handleClick() id="wow-button">Wow</button>```
 
 
-* Knowing that from the previous question, add code/markup to the `jsPracticeLab.html` file so that there is a button with the text `Spring Solstice 2019` on it, and when that button is clicked, a text box containing the text `March 20, 2019` appears. (There's no function -- that I am aware of -- to automatically get this info, you've got to type it yourself.)
+* Knowing what you learned from the previous question, add code/markup to the `jsPracticeLab.html` file *so that* there is a button with the text `Spring Solstice 2019` on it somewhere on the page, and when that button is clicked, a text box containing the text `March 20, 2019` appears. (There's no function -- that I am aware of -- to automatically get this info, you've got to type it yourself.)
 
 
 
@@ -101,10 +102,20 @@ and
 
 * Check out the file `jquerylib_submit_example.html`. This is an example of code that uses a package called `jQuery` (and this will need you to have an internet connection to run it properly, although the other file does not). Check out resources above for more on jQuery!
 
-* Why is the error red
+* When you enter input that isn't valid, you see an error that is red. Why is the error in red? 
 
-* What is this line `var regex = /^[a-zA-Z]+$/;` helping with?
+* What is this line `var regex = /^[a-zA-Z]+$/;` helping with? And if you googled something to figure that out, what did you google, and what did you learn? If you didn't need to google, leave that out, but explain briefly what that line is helping the program do, anyway.
 
-* What's different about the syntax of the if statements?
+* What's different about the syntax of conditional statements in JavaScript, compared to Python?
 
-* Maybe something about relying on jQuery 
+* What do you think the `10000` refers to in the code `.fadeOut(10000)`?
+
+* What do you think is going on with the following code? Note that the most important thing to do for answering this question is to be thoughtful and clear, not to be absolutely correct:
+
+```js
+$(document).ready(function(){
+    $("form").submit(function(event){
+```
+
+* Add some code to the `jquerylib_submit_example.html` file so that, if the input is valid and is specifically the text `hello`, rather than the visible output being `Nice!` in blue, the visible output should be `Hello to you too!`, also in blue, just like `Nice!` is. 
+	* *HINT:* You'll have to make some changes to the conditional statement, and possibly look up some JavaScript conditional syntax. You'll also need to look carefully at what generates visible output right now.
