@@ -87,7 +87,7 @@ Some Javascript code*/ (multiline comments)
 
 There are some ways to run the javascript program.
 First is to open the javascript program by using browsers such as firefox and chrome.(As following)
-![](/Users/zhouqi/Desktop/SI507-HW6-master/1.png)
+![](https://github.com/zqcarlos/SI507-HW6/blob/master/1.png)
 Second way is puting Javascript program into the HTML by using tag （<>） 
 Third way is using Node.js
 
