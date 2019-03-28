@@ -9,11 +9,12 @@
 	// It is possible you have seen this before -- if so, that's fine, if not, that's fine, too
 
 	// Output..
-	alert("hello");
+	//alert("hello");
+	alert(Date())
 	console.log("hello in console");
 
 	function displayInformation () {
-		document.querySelector('h1').innerHTML = "A name";
+		document.querySelector('h1').innerHTML = "Qi Zhou";
 		document.querySelector("#URL").innerHTML = document.documentURI; // URI means something like URL -- slight differences for specificity
 		document.querySelector('#items').innerHTML = document.getElementsByTagName('li').length
 		document.querySelector('#time').innerHTML = new Date();
@@ -22,6 +23,8 @@
 		// One place to find color option codes: https://www.w3schools.com/colors/colors_picker.asp
 		body.style.margin = "10%";		
 	}
+
+
 	//When someone uses the keyboard shortcut to copy the words "University of Michigan" then add the words "Go Blue" to the final div.  Each occurence should be on a separate line. 
 	//Note that this code must be outside the other function above
 	function copyFunction(){
@@ -31,14 +34,29 @@
 	function handleClick(){
 		alert("hello");
 	}
+
+	function handleClick2(){
+		alert("March 20, 2019");
+	}
+	/*
+	document.getElementsByTagId.addEventListener('copy', function(e){
+		document.getElementsByTagId('copy-board').innerHTML = "0 Canada";
+    	e.preventDefault(); // We want our data, not data from any selection, to be written to the clipboard
+	});
+	*/
+
+	function copyFunction2(){
+		document.querySelector('#MCU').innerHTML += "O Canada<br>"
+	}
 </script>
 <style>
 p{
 	background-color: #b3b3b3;
-	border: 3px solid #FFFFFF;
+	border: 3px solid rgb(150,0,0);
 	padding: 3%;
 	font-size: 1.1em;
 	line-height: 1.5;
+	box-shadow: 10px 10px rgba(0, 0, 100, 1);
 }
 </style>
 </head>
@@ -62,7 +80,7 @@ p{
 	<ul>
 		<li>Kent State</li>
 		<li>University of Pittsburgh</li>
-		<li>McGill University</li>
+		<li oncopy="copyFunction2()">McGill University</li>
 		<li>California State University Long Beach</li>
 		<li oncopy="copyFunction()">University of Michigan</li>
 	</ul>
@@ -71,6 +89,7 @@ p{
 	</div>
 
 	<button onclick=handleClick() id="wow-button">Wow</button>
-
+	<button onclick=handleClick2() id="wow-button">Spring Equinox 2019</button>
+	<div id="MCU"></div>
 </body>
 </html>
